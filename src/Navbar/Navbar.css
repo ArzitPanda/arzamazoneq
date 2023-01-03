@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+* {
+  font-family: "Epilogue", sans-serif;
+}
+
+.nav-container {
+  background-color: #131921;
+  height: 60px;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.amz-logo {
+  position: relative;
+}
+.location {
+  padding: 1px;
+  width: 130px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.location h5 {
+  color: white;
+  margin-left: 5px;
+  font-size: 14px;
+  width: 30px;
+}
+
+.loc {
+  height: 120px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-box {
+  font-size: 20px;
+  border: none;
+  border-color: none;
+  padding-inline-start: 10px;
+  outline-width: 0px;
+  height: 35px;
+  width: 40vw;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.searchlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #febd69;
+  height: 35px;
+  width: 3vw;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.cart h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+
+  color: black;
+  position: relative;
+  right: 14px;
+  bottom: 12px;
+  background-color: #febd69;
+}
+.cart:hover {
+  border: 1px solid white;
+}
+.location:hover {
+  border: 1px solid white;
+}
+.contents-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #232f3e;
+  color: white;
+  height: 40px;
+  top: 1000px;
+
+  
+
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  flex-direction: column;
+}
+.contents-content .contents {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contents:hover {
+  border: 1px solid white;
+}
+.mdcancel:hover
+{
+  transition: 1s;
+  color:white;
+}
+
+
+

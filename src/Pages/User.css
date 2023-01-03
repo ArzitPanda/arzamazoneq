@@ -1,0 +1,46 @@
+.register {
+  display: grid;
+  height: 400px;
+  width: 300px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto * 1fr);
+  place-items: center;
+  border: 1px solid orange;
+}
+
+.register button {
+  border: none;
+  width: 200px;
+  height: 25px;
+  background-color: #febd69;
+}
+.register button:active {
+  background-color: orange;
+}
+.register input {
+  height: 30px;
+  width: 200px;
+  outline-width: 0px;
+  padding-inline-start: 5px;
+}
+.register input:focus {
+  border: 1px solid orange;
+}
+.main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 20px;
+}
+
+.alt {
+  color: orange;
+  cursor: pointer;
+}
